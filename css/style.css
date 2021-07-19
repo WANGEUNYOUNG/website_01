@@ -1,0 +1,48 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+
+
+*{box-sizing: border-box; font-family: 'Source Sans Pro', sans-serif;}
+html, body{margin: 0; padding: 0;}
+h1, h2, h3, h4, h5, h6, p{margin: 0;}
+ul, ol{margin: 0; padding: 0; list-style: none;}
+a{text-decoration: none;}
+
+/*.font_paci{font-family: 'Pacifico', cursive;}/*서체에 클래스명 달아서 진행해줌*/
+
+#pr_01{font-family: 'Source Sans Pro', sans-serif;
+     padding: 0 10px; margin: 0 auto; margin: 0 auto;  width: 1160px;}
+
+#pr_01 .top{height: 30px; background-color: #000;}
+#pr_01 .top .top_menu{}
+#pr_01 .top .top_menu::after{content: ""; display: block; clear: both;}
+#pr_01 .top .top_menu .top_left{}
+#pr_01 .top .top_menu .top_left ul{}
+#pr_01 .top .top_menu .top_left ul li{float: left;}
+#pr_01 .top .top_menu .top_left ul li a{color: #fff; font-size: 14px; line-height: 30px; padding-right: 10px;}
+
+#pr_01 .top .top_menu .top_right{float: right;}
+#pr_01 .top .top_menu .top_right ul{}
+#pr_01 .top .top_menu .top_right ul li{float: left;}
+#pr_01 .top .top_menu .top_right ul li a{color: #fff; font-size: 14px; line-height: 30px; padding: 0 10px;}
+
+#pr_01 .bottom{height: 66px; background-image: url(../img/1.jpg); background-size: cover; background-position: 50% 50%;}
+#pr_01 .bottom .bottom_dark{background-color: rgba(0, 0, 0, 0.5); height: 100%;}
+#pr_01 .bottom .bottom_dark .wrap{}
+#pr_01 .bottom .bottom_dark .wrap .logo{width: 180px; float: left;}
+#pr_01 .bottom .bottom_dark .wrap .logo img{display: block; padding-top: 15px; }
+
+
+
+#pr_01 .bottom .menu{text-align: center;}
+#pr_01 .bottom .menu ul{font-size: 0;}
+#pr_01 .bottom .menu ul li{display: inline-block; line-height: 66px; margin: 0 20px;}
+#pr_01 .bottom .menu ul li a{font-size: 16px; font-weight: bold; color: #fff;}
+
+
+
+#pr_01 .bottom .mypage{float: right;}
+#pr_01 .bottom .mypage ul{}
+#pr_01 .bottom .mypage ul li{}
+#pr_01 .bottom .mypage ul li a{padding:10px 14px; background-color: #ff6600; color: #fff; border: 1px solid #ff6600; border-radius: 4px;}
